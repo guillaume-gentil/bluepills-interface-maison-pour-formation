@@ -1,0 +1,16 @@
+/* ******************** palettes de couleurs DARK ******************** */
+
+/* source : file:///media/sf_partageVM/Codes/Ressources/Couleurs/Palettes/palette-03.png */
+
+:root  {
+    --color-back-main: #16161A;
+    --color-text-main: #FFF;
+
+    --color-back-second: #94A1B2;
+    --color-text-second: #16161A;
+
+    --color-high: #7F5AF0;  /* zones cliquables */
+    --color-warn: #2CB67D;  /* zones importantes */
+}
+
+

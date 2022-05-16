@@ -1,0 +1,82 @@
+/*********** Règles pour la mise en forme ***********/
+.page {
+    /* max-width, au lieu de width permet à la page de diminuer sa taille sur des écrans plus petit que la valeur cible (responsive) */
+    max-width: 750px;
+    /* margin: auto, pour centrer la page */
+    margin: 0 auto;
+}
+
+/* :last-child est une pseudo-classe, cette règle cible uniquement le dernier div contenu dans le div.page */
+.page > div:last-child {
+    margin-bottom: 200px;
+}
+
+.exemple { border-bottom: #000 solid 5px; }
+
+hr {
+    /* style du hr */
+    height: 3px;
+    background-color: black;
+}
+
+code {
+    padding: 2px 5px;
+    background-color: #353535;
+    color: #fff;
+    border: solid 1px #818181;
+    border-radius: 3px;
+}
+
+p {
+    text-align: center;
+    /* interligne */
+    line-height: 1.6em;
+}
+
+pre {
+    
+}
+
+.quote {
+    margin-left: 40px;
+    padding-left: 10px;
+    border-left: #000 solid 3px;
+    text-align: left;
+}
+
+.conclusion { 
+    margin-left: 40px;
+    padding-left: 10px;
+    border-left: #F00 solid 3px;
+    text-align: left; 
+}
+
+.carre {
+    width: 200px;
+    height: 200px;
+    /* margin: auto, pour centrer gauche/droite */
+    margin: 10px auto;
+}
+
+.vert { background-color: green; }
+
+.jaune { background-color: yellow; }
+
+.rouge { background-color: red; }
+
+/*********** Regles pour les exemples ***********/
+.cache {
+    /* cette propriété permet de ne pas afficher l'élément */
+    display: none;
+    /* pour rendre l'élément transparent : */
+    /* visibility: hidden; */
+}
+
+.padding10 { padding: 10px; }
+
+.border10 { border: 10px solid #000; }
+
+/* Pour box-sizing : voir le rendu sur le navigateur */
+.content-box { box-sizing: content-box; }
+
+.border-box { box-sizing: border-box; }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SandBox</title>
+    <link rel="stylesheet" href="cheatsheet.css">
+</head>
+<body>
+    <div class="page">
+        
+        <div class="exemple">
+            <div class="carre vert"></div>
+            <div class="carre jaune"></div>
+            <p class="conclusion">Ici se cache un carré rouge grâce à la propriété <code>display: none;</code>
+                <br>Cette propriété ne doit pas être confondu avec <code>visibility: hidden;</code> qui ne cache pas mais rend transparent l'élément. Celui-ci occupe donc toujours sa place (marges comprises).</p>
+            <div class="carre rouge cache"></div>
+        </div>
+
+        <div class="exemple">
+            <div class="carre vert"></div>
+            <div class="carre vert border-box padding10 border10"><code>box-sizing: border-box;</code></div>
+            <p class="quote">Lorsqu'un bloc est réglé en <code>border-box</code>, c'est la taille de la bordure qui compte, l'effet de débordement ne sera donc pas visible</p>
+            <div class="carre vert content-box padding10 border10"><code>box-sizing: content-box;</code></div>
+            <p class="quote">Lorsqu'un bloc est réglé en <code>content-box</code>, c'est la taille du contenu qui compte, et le padding et le margin vont déborder de la taille cible</p>
+            <p class="conclusion">En général, on préfère le comportement de <code>border-box</code>. On voit donc souvent un fichier reset.css ou normalize.css incluant les lignes suivantes :</p>
+            <pre>* {
+                -webkit-box-sizing: border-box;
+                   -moz-box-sizing: border-box;
+                        box-sizing: border-box;
+              }</pre>
+        </div>
+
+    </div>
+</body>
+</html>

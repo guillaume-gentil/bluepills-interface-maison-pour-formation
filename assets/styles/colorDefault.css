@@ -1,0 +1,16 @@
+/* ******************** palettes de couleurs DEFAULT ******************** */
+
+/* source : file:///media/sf_partageVM/Codes/Ressources/Couleurs/Palettes/palette-02.png */
+
+:root  {
+    --color-back-main: #004643;
+    --color-text-main: #EFF0F3;
+
+    --color-back-second: #ABD1C6;
+    --color-text-second: #004643;
+
+    --color-high: #F9BC60;  /* zones cliquables */
+    --color-warn: #E16162;  /* zones importantes */
+}
+
+

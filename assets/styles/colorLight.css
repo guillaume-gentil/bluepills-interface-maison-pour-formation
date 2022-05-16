@@ -1,0 +1,16 @@
+/* ******************** palettes de couleurs LIGHT ******************** */
+
+/* source : file:///media/sf_partageVM/Codes/Ressources/Couleurs/Palettes/palette-01.png */
+
+:root  {
+    --color-back-main: #EFF0F3;
+    --color-text-main: #0D0D0D;
+
+    --color-back-second: #FFF;
+    --color-text-second: #0D0D0D; 
+
+    --color-high: #ff8E3C;  /* zones cliquables */
+    --color-warn: #D9376E;  /* zones importantes */
+}
+
+
