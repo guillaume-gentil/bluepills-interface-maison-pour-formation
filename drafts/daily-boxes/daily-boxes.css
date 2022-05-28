@@ -1,0 +1,23 @@
+/* 
+*****************************
+*  DAYBOX
+*****************************
+*/
+
+.semaine{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+.daybox {
+    max-width: calc(var( --width-fixed) / 5 );
+    border: 1px #fff solid;
+    text-align: center;
+    margin: 20px 10px;
+}
+.daybox__masque{
+    background-color: #202B47;
+}
+.daybox__masque:hover {
+    opacity: 0%;
+}

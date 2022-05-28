@@ -1,0 +1,175 @@
+/* 
+*************************************************************************************************************************************************
+*  VARIABLES
+*************************************************************************************************************************************************
+*/
+
+:root {
+
+}
+
+/* 
+*************************************************************************************************************************************************
+*  VALEURS GLOBALES
+*************************************************************************************************************************************************
+*/
+html {
+    background-color: var(--color-back-main);
+    
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-main);
+}
+h1 {
+    font-size: 2.3em;
+    font-family: 'Macondo', cursive;
+    padding: 0.3em 0.6em;
+}
+p {
+    padding-top: 0.5em;
+    padding-bottom: 0.3em;
+}
+
+/* 
+*************************************************************************************************************************************************
+*  HEADER, FOOTER, NAV
+*************************************************************************************************************************************************
+*/
+/*? ************************************ Header ************************************ */
+/* Mise en forme du titre */
+header {
+    height: 10vh;
+    background-color: #202B47;
+    /* met un peu d'espace sous le menu */
+    display: flex;
+    align-items: center;
+}
+/* Mise en forme du titre */
+.titre-page {
+    text-align: center;
+}
+.titre-page::before {
+    content: "<";
+    color: #808080;
+}
+.titre-page::after {
+    content: ">";
+    color: #808080;
+}
+.titre-page__balise {
+    color: #3078D0;
+}
+.titre-page__class {
+    color: #52AFFE;
+    padding-left: 0.3em;
+}
+.titre-page__class:after {
+    content: "=";
+    color: #D4D4D4;
+}
+.titre-page__attr {
+    color: #CE9164;
+}
+.titre-page__attr::before, .titre-page__attr::after {
+    content: '"';
+}
+
+/*? ************************************ Liens externes ************************************ */
+.galaxy {
+    /* fixe la largeur du menu et le centre */
+    max-width: fit-content;
+}
+.galaxy__link {
+    display: inline-block;
+    /* espace les lettre des mots */
+    color: var(--color-high);
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /* centre les textes verticalement */
+    vertical-align: middle;
+    
+    padding: 0.3em;
+}
+.galaxy__link:hover {
+    transform: scale(0.8);
+}
+.galaxy__logo {
+    display: inline-block;
+    max-width: 36px;
+}
+
+/*? ************************************ Footer ************************************ */
+footer {
+    /* fixe la largeur du menu et le centre */
+    width: 100vw;
+    margin: auto;
+    background-color: #202B47;
+    /* définition de base des textes du footer */
+    text-align: center;
+    color: #808080;
+    /* espace les lettre des mots */
+    letter-spacing: 0.1em;
+}
+/* définition des textes du footer */
+.footer__auteur {
+    color: #3078D0;
+    font-style: italic;
+}
+.footer__promo {
+    color: #CE9164;
+    padding: 0 0.5em;
+}
+.footer__promo::before, .footer__promo::after {
+    content: " | ";
+    color: #808080;
+}
+
+/* 
+*************************************************************************************************************************************************
+*  MAIN
+*************************************************************************************************************************************************
+*/
+/* Layout de la section */
+main {
+    height: 84.5vh;
+}
+.flex {
+    display: flex;
+}
+/* menu de navigation */
+.categories {
+    width: 10%;
+    overflow-y: auto;
+    background-color: #202B47;
+}
+.categories__link a {
+    display: block;
+    padding: 10px 5px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #CE9164;
+    text-decoration: none;
+    border-top: 1px solid #738cca;
+    border-bottom: 1px solid #738cca;
+}
+.categories__link a:hover {
+    background-color: #738cca;
+}
+
+/* Contenu */
+.main-content {
+    width: 100%;
+    overflow-y: auto;
+    padding-bottom: 70vh;
+}
+.language {
+    margin: 0 auto 50px;
+}
+.language__title {
+    text-align: center;
+    background-color: rgb(26, 85, 65);
+    padding: 20px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid black;
+}
