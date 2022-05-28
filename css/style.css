@@ -150,8 +150,10 @@ main {
     text-transform: uppercase;
     color: #CE9164;
     text-decoration: none;
-    border-top: 1px solid #738cca;
     border-bottom: 1px solid #738cca;
+}
+.categories__link li:first-child {
+    border-top: 1px solid #738cca;
 }
 .categories__link a:hover {
     background-color: #738cca;

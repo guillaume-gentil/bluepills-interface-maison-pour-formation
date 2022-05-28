@@ -25,28 +25,28 @@
 <body>
     <header>
         <div class="galaxy"><!-- Menu de liens externes -->
-            <a href="https://drive.google.com/drive/my-drive" class="galaxy__link" title="Drive guillaumeg.dev">
+            <a href="https://drive.google.com/drive/my-drive" class="galaxy__link" title="Drive guillaumeg.dev" target="_blank">
                 <img src="./img/brand/google-drive48.png" alt="Drive" class="galaxy__logo">
             </a>
-            <a href="https://start.me/p/aLg128/outils-dev" class="galaxy__link" title="Bookmarks">
+            <a href="https://start.me/p/aLg128/outils-dev" class="galaxy__link" title="Bookmarks" target="_blank">
                 <img src="./img/brand/startMe225.jpeg" alt="StartMe" class="galaxy__logo">
             </a>
-            <a href="https://discord.com/channels/@me" class="galaxy__link" title="Discord O'clock">
+            <a href="https://discord.com/channels/@me" class="galaxy__link" title="Discord O'clock" target="_blank">
                 <img src="./img/brand/discord360.png" alt="Discord" class="galaxy__logo">
             </a>
-            <a href="https://app.slack.com/client/T03BC2MMCRF/C03BP7E5F24" class="galaxy__link" title="Slack O'clock">
+            <a href="https://app.slack.com/client/T03BC2MMCRF/C03BP7E5F24" class="galaxy__link" title="Slack O'clock" target="_blank">
                 <img src="./img/brand/slack185.png" alt="Slack" class="galaxy__logo">
             </a>
-            <a href="https://cockpit.oclock.io/dashboard" class="galaxy__link" title="Cockpit O'clock">
+            <a href="https://cockpit.oclock.io/dashboard" class="galaxy__link" title="Cockpit O'clock" target="_blank">
                 <img src="./img/brand/oclock64.png" alt="Oclock" class="galaxy__logo">
             </a>
-            <a href="https://github.com/guillaume-gentil"class="galaxy__link" title="GitHub guillaume-gentil">
+            <a href="https://github.com/guillaume-gentil"class="galaxy__link" title="GitHub guillaume-gentil" target="_blank">
                 <img src="./img/brand/github630.png" alt="Github" class="galaxy__logo">
             </a>
         </div><!-- Fin du menu de liens externes -->
                     
         <h1 class="titre-page"><!-- Titre de la bannière -->
-            <a href="http://localhost/einstein/"><span class="titre-page__balise">DevWEB</span><span class="titre-page__class">class</span><span class="titre-page__attr">einstein</span></a>
+            <a href="http://localhost/einstein/" title="Naviguer dans les challenges"><span class="titre-page__balise">DevWEB</span><span class="titre-page__class">class</span><span class="titre-page__attr">einstein</span></a>
         </h1><!-- Fin du titre de la bannière -->
     </header>
 
@@ -147,7 +147,7 @@
 
     <footer class="footer"><!-- Footer -->
         <p>
-            Site réalisé par <a href="https://www.linkedin.com/in/ggentil/"><span class="footer__auteur">Guillaume Gentil</span></a><a href="http://localhost/einstein/"><span class="footer__promo">promo Einstein</span></a><span class="date">été 2022</span>
+            Site réalisé par <a href="https://www.linkedin.com/in/ggentil/" title="Mon LinkedIn"><span class="footer__auteur">Guillaume Gentil</span></a><a href="http://localhost/einstein/" title="Naviguer dans les challenges"><span class="footer__promo">promo Einstein</span></a><span class="date">été 2022</span>
         </p>
     </footer>
 </body>
