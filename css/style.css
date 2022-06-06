@@ -20,6 +20,8 @@ html {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: var(--color-text-main);
+
+    scroll-behavior: smooth;  // permet de ralentir le scroll automatique au clic sur des liens #id (ne marche pas ?...)
 }
 h1 {
     font-size: 2.3em;
@@ -99,7 +101,7 @@ header {
     content: '"';
 }
 
-/*? ************************************ Liens externes ************************************ */
+/*? ************************************ Menu Header ************************************ */
 .galaxy {
     /* fixe la largeur du menu et le centre */
     max-width: fit-content;
@@ -155,20 +157,20 @@ footer {
 *  MAIN
 *************************************************************************************************************************************************
 */
-/* Layout de la section */
+/*? ************************************ Layout du main ************************************ */
 main {
     height: 84.5vh;
 }
 .flex {
     display: flex;
 }
-/* menu de navigation */
+/*? ************************************ Menu des catégories ************************************ */
 .categories {
     width: 10%;
     overflow-y: auto;
     background-color: #202B47;
 }
-.categories__link a {
+.categories__liste a {
     display: block;
     padding: 10px 5px;
     text-align: center;
@@ -177,14 +179,17 @@ main {
     text-decoration: none;
     border-bottom: 1px solid #52AFFE;
 }
-.categories__link li:first-child {
+.categories__liste li:first-child {
     border-top: 1px solid #52AFFE;
 }
-.categories__link a:hover {
+.categories__liste a:hover {
+    background-color: #52AFFE;
+}
+.active {
     background-color: #52AFFE;
 }
 
-/* Contenu */
+/*? ************************************ Contenu des catégories ************************************ */
 .main-content {
     width: 100%;
     overflow-y: auto;

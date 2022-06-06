@@ -41,10 +41,10 @@
 
     <main class="flex">
         <nav class="categories"><!-- Menu de navigation des catégories, fixe sur la gauche -->
-            <ul class="categories__link">
+            <ul class="categories__liste">
 
             <?php for ($i = 0; $i < count($categories); $i++) :?> 
-                <li><a href="#<?= $categories[$i] ?>"><?= $categories[$i] ?></a></li>    
+                <li><a href="#<?= $categories[$i] ?>" class="categories__link" data-categorie="<?= $categories[$i] ?>"><?= $categories[$i] ?></a></li>    
             <?php endfor; ?>
 
             </ul>

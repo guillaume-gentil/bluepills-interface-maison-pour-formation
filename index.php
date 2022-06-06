@@ -1,6 +1,9 @@
 <?php 
+/* importation des données du Header */
 require (__DIR__ . '/php/data/dataHeaderNav.php');
+/* importation des données du menu des catégories */
 require (__DIR__ . '/php/data/dataCategoriesNav.php');
+/* importation du header + menu de navigation des catégories */
 include_once(__DIR__ . '/php/templates/header.tpl.php');
 ?>
         
