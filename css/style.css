@@ -28,6 +28,17 @@ h1 {
 p {
     padding-top: 0.5em;
     padding-bottom: 0.3em;
+    line-height: 1.2em;
+}
+
+.main-content ul {
+    padding-left: 30px;
+    list-style: circle;
+}
+
+.width920 {
+    width: 920px;
+    margin: auto;
 }
 
 /* 
@@ -150,13 +161,13 @@ main {
     text-transform: uppercase;
     color: #CE9164;
     text-decoration: none;
-    border-bottom: 1px solid #738cca;
+    border-bottom: 1px solid #52AFFE;
 }
 .categories__link li:first-child {
-    border-top: 1px solid #738cca;
+    border-top: 1px solid #52AFFE;
 }
 .categories__link a:hover {
-    background-color: #738cca;
+    background-color: #52AFFE;
 }
 
 /* Contenu */
