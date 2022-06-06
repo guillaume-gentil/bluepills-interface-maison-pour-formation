@@ -5,6 +5,7 @@
 */
 
 :root {
+    --line-height: 1.2em;
 
 }
 
@@ -28,12 +29,25 @@ h1 {
 p {
     padding-top: 0.5em;
     padding-bottom: 0.3em;
-    line-height: 1.2em;
+    line-height: var(--line-height);
 }
 
 .main-content ul {
     padding-left: 30px;
     list-style: circle;
+}
+
+.main-content li {
+    line-height: var(--line-height);
+    padding-bottom: 1em;
+}
+
+.main-content a {
+    color:rgb(224, 175, 224);
+}
+
+a:hover {
+    background-color: #CE9164;
 }
 
 .width920 {

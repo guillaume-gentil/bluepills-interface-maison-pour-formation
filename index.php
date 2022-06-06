@@ -66,10 +66,12 @@ include_once(__DIR__ . '/php/templates/header.tpl.php');
             <p>JS est avant tout un langage informatique de programmation. Il est donc adapté à la programmation algorythmique. Cependant, on l'utilise souvent pour ces possibilités de contrôle (voir "event") et de modification du DOM ou la logique est assez peu présente au profit de l'éxécution de tâches simple et répétitives (ciblage d'un élément, écoute des actions de l'utilisateur sur celui-ci, déclenchement d'une action (voir fonction "handle").</p>
             <p>L'organisation du code doit suivre un schéma précis afin de le rendre efficace mais surtout lisible pour un humain et facilement maintenable dans le temps (voir "utilisation de modules").</p>
             <p>JS ne dialogue pas avec le serveur. Ceci implique que les modifications qu'il apporte au DOM ne persistent pas après une requète serveur. Prémièrement les requêtes serveur peuvent être interrompues par JS. Par ailleurs, JS peut se servir du localStorage (et sessionStorage) pour stocker, par exemple les préférecnes d'affichage d'un utilisateur. Ces données sont stockées sur la machine client et ne sont pas accessibles par des sites tiers (contrairement aux cookies). C'es fichiers localStorage doivent contenir du texte uniquement (voir JSON, parse et stringify). JS peut également écrire des informations dans des cookies mais ceux-ci ont pour nature de dialoguer avec le serveur, on évitera donc de s'en servir avec JS.</p>
+            <p>Pour découvrir JS, le dépôt <a href="https://github.com/O-clock-Einstein?q=decouverte&type=all&language=&sort=" target="_blank">découverte de JS</a> peut aider à se familiariser avec la syntaxe de JS.</p>
             <p>Avec JS on peut, par exemple, faire : </p>
             <ul>
-                <li>1</li>
-                <li>2</li>
+                <li>Tri à bulles (<a href="https://fr.wikipedia.org/wiki/Tri_%C3%A0_bulles" target="_blank">Wiki</a>). Cet exercice d'algorythmique est un classique. A tel point qu'on le retrouve souvent lors d'un entretien d'embauche ! Voir : exercice 2 du challenge.</li>
+                <li>Les challenge <a href="https://github.com/O-clock-Einstein?q=S03-E02&type=all&language=&sort=" target="_blank">S03-E02</a> et <a href="https://github.com/O-clock-Einstein?q=S03-E03&type=all&language=&sort=" target="_blank">S03-E03</a> permettent de se familiariser avec l'écoute et la modification du DOM</li>
+                <li>Le challenge <a href="https://github.com/O-clock-Einstein?q=tripo&type=all&language=&sort=" target="_blank">TripOdvisor</a> est le fil rouge de cette saison. Il contient tout ce que l'on a appris au cours sur JS. La journée atelier porte sur ce projet.</li>
             </ul>
         </article>
     </section><!-- Fin de section dédiée à Javascript -->
